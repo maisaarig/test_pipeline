@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\controller\UserController.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="15" severity="error" message="La première ligne de la Javadoc doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" severity="error" message="La ligne excède 80 caractères (trouvé 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="36" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="37" column="5" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="43" column="39" severity="error" message="Il manque une espace après &apos;+&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="39" severity="error" message="Il manque une espace avant &apos;+&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="46" severity="error" message="La ligne excède 80 caractères (trouvé 89)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="52" severity="error" message="La ligne excède 80 caractères (trouvé 91)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="53" column="27" severity="error" message="Il manque une espace avant &apos;{&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="54" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" column="28" severity="error" message="Il manque une espace avant &apos;{&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="57" severity="error" message="La ligne excède 80 caractères (trouvé 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" column="41" severity="error" message="Il y a une espace de trop avant &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\model\Role.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" severity="error" message="L&apos;utilisation des import.* est prohibé - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="24" column="40" severity="error" message="&apos;id&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="30" severity="error" message="Balise Javadoc @return manquante." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="44" severity="error" message="&apos;name&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="38" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="41" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="48" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="50" column="32" severity="error" message="Le paramètre users devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="42" severity="error" message="&apos;users&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\model\User.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="10" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="30" column="40" severity="error" message="&apos;id&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="38" column="48" severity="error" message="&apos;username&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="41" severity="error" message="La première ligne de la Javadoc doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="51" column="48" severity="error" message="&apos;password&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="54" severity="error" message="La première ligne de la Javadoc doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="62" column="53" severity="error" message="&apos;userEmail&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="68" column="9" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="75" column="55" severity="error" message="&apos;passwordConfirm&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="80" severity="error" message="La ligne excède 80 caractères (trouvé 131)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="85" column="48" severity="error" message="&apos;roles&apos; masque un attribut." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\repository\RoleRepository.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" column="65" severity="error" message="&apos;&gt;&apos; est suivi par un caractère illégal." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="7" column="66" severity="error" message="Il manque une espace avant &apos;{&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\repository\UserRepository.java">
+<error line="8" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\service\SecurityService.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="8" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\service\SecurityServiceImpl.java">
+<error line="8" severity="error" message="La ligne excède 80 caractères (trouvé 104)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="8" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="33" severity="error" message="Le nom &apos;logger&apos; n&apos;est pas conforme à l&apos;expression &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="25" severity="error" message="La ligne excède 80 caractères (trouvé 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="5" severity="error" message="Classe &apos;SecurityServiceImpl&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;findLoggedInUsername&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="38" column="5" severity="error" message="Classe &apos;SecurityServiceImpl&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;autologin&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="42" severity="error" message="La ligne excède 80 caractères (trouvé 101)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" severity="error" message="La ligne excède 80 caractères (trouvé 81)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\service\UserDetailsServiceImpl.java">
+<error line="19" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="23" column="5" severity="error" message="Classe &apos;UserDetailsServiceImpl&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;loadUserByUsername&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="26" column="5" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="error" message="La ligne excède 80 caractères (trouvé 105)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\service\UserService.java">
+<error line="7" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\service\UserServiceImpl.java">
+<error line="16" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="19" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="22" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="5" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="26" column="5" severity="error" message="Classe &apos;UserServiceImpl&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;save&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="5" severity="error" message="Classe &apos;UserServiceImpl&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;findByUsername&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\java\com\visualpathit\account\validator\UserValidator.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="14" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Classe &apos;UserValidator&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;supports&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="29" severity="error" message="Le paramètre aClass devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" column="5" severity="error" message="Classe &apos;UserValidator&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;validate&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="26" severity="error" message="Le paramètre o devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="36" severity="error" message="Le paramètre errors devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="43" severity="error" message="&apos;6&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="27" column="78" severity="error" message="&apos;32&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" severity="error" message="La ligne excède 80 caractères (trouvé 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="43" severity="error" message="&apos;8&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="78" severity="error" message="&apos;32&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" severity="error" message="La ligne excède 80 caractères (trouvé 83)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\resources\application.properties">
+</file>
+<file name="C:\Users\HP\Desktop\pipeline\test_pipeline\src\main\resources\validation.properties">
+<error line="1" severity="error" message="Il manque un caractère NewLine à la fin du fichier." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+</checkstyle>
