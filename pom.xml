@@ -157,6 +157,7 @@
                 <version>2.21.0</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <forkCount>0</forkCount>
                 </configuration>
 		    </plugin>
 	     <plugin>
