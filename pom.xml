@@ -89,6 +89,25 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency> <!--ADDED THIS-->
+            <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>1.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>1.4.0</version>
+            <scope>test</scope>
+        </dependency>  <!-- TILL THIS-->
         <dependency>
     		<groupId>org.mockito</groupId>
     		<artifactId>mockito-core</artifactId>
@@ -139,6 +158,18 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
+                <dependencies>    <!--ADDED THIS-->
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.1.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>5.1.0</version>
+                    </dependency>
+                </dependencies> <!--TILL HERE-->
 		    </plugin>
 	     <plugin>
 		<groupId>org.sonarsource.scanner.maven</groupId>
@@ -146,6 +177,7 @@
 		<version>3.7.0.1746</version>
 	     </plugin>
 		<!-- CODE COVERAGE -->
+        <!-- JACOCO ADDED TO GENERATE CODE COVERAGE-->
 		    <plugin>
 		        <groupId>org.jacoco</groupId>
 		        <artifactId>jacoco-maven-plugin</artifactId>
